@@ -15,6 +15,6 @@ $(function(){
     if(e.type == "touchend"){
       $('#txt').text("フリックが終わりました");
     }
-    $('#x_pos').text("(" + touch.pageX + ", " + touch.pageY + ")");
+    $('#pos').text("(" + touch.pageX + ", " + touch.pageY + ")");
   }
 })
