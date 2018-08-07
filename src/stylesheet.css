@@ -5,3 +5,9 @@
   height: 300px;
   display: block;
 }
+#txt{
+  background-color: #eee;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
