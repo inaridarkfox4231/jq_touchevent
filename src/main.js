@@ -11,11 +11,10 @@ $(function(){
     }
     if(e.type == "touchmove"){
       $('#txt').text("フリックしています");
-      $('#x_pos').text("X:" + touch.pageX);
-      $('#y_pos').text("Y:" + touch.pageY);
     }
     if(e.type == "touchend"){
       $('#txt').text("フリックが終わりました");
     }
+    $('#x_pos').text("(" + touch.pageX + ", " + touch.pageY + ")");
   }
 })
