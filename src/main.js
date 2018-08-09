@@ -4,7 +4,7 @@ $(function(){
   box.addEventListener("touchmove", touchHandler, false);
   box.addEventListener("touchend", touchHandler, false);
   function touchHandler(e){
-    e.preventDefault();  // デフォルトのイベント（コピーなど）を防ぐ
+    e.preventDefault();  // デフォルトのイベント（画面の移動など）を防ぐ
     var touch = e.touches[0];
     if(e.type == "touchstart"){
       $('#txt').text("タッチされました");
